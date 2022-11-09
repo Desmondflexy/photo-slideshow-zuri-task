@@ -1,3 +1,3 @@
 # photo-slideshow-zuri-task
 
-[Hosted site](https://comfy-bublanina-dcd044.netlify.app/)
+[Click here](https://comfy-bublanina-dcd044.netlify.app/) to see the hosted website
