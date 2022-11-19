@@ -1,0 +1,48 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+
+    h1 {
+        font-family: helvetica, arial, sans-serif;
+        text-align: center;
+        padding: 10px;
+        background-color: #eee;
+        margin-bottom: 0;
+    }
+
+    .full-img {
+        position: relative;
+        width: inherit;
+        height: 360px;
+
+        .displayed-img {
+            width: inherit;
+            height: inherit;
+        }
+
+        .btn {
+            position: absolute;
+            $iconheight: 50px;
+            top: calc(50% - $iconheight/2);
+            height: $iconheight;
+            width: 30px;
+            background-color: rgba(234, 234, 234, 0.6);
+            cursor: pointer;
+            display: none;
+            z-index: 1;
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        &:hover .btn {
+            display: block;
+        }
+    }
+}
+
